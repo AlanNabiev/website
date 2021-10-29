@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-red-500 font-bold">CryptoGBoors website</h1>
+  <h1 class="text-red-500">CryptoGBoors website</h1>
 </template>
 
 <script lang="ts">
@@ -12,18 +12,9 @@ export default defineComponent({
 
 <style>
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
+  @apply m-0 p-0 box-border list-none;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
-  /* color: #2c3e50; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  @apply font-body text-center absolute top-2/4 right-2/4 transform translate-x-2/4 translate-y-2/4;
 }
 </style>
