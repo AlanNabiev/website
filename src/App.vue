@@ -1,5 +1,6 @@
 <template>
   <h1 class="text-red-500">CryptoGBoors website</h1>
+  <BaseIcon />
 </template>
 
 <script lang="ts">
