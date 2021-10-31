@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/feather-icons": "^4.7.0",
     "@types/lodash-es": "^4.17.5",
     "autoprefixer": "^9.8.8",
     "core-js": "^3.6.5",
